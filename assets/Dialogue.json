@@ -1,0 +1,480 @@
+[
+  {
+    "id": 1,
+    "text": "Westminster Abbey, London (February 26, 1413)\n\nMay God Defend the Right! As the duel begins, swords clash and blood stains armor. King Henry IV asks: 'Why do men risk their lives in duels instead of letting the courts decide?'",
+    "choices": []
+  },
+  {
+    "id": 2,
+    "text": "For Honour, my king. If they settle their quarrels in court, they risk being seen as weak. Men will fight so their legacies may be remembered. King Henry IV replies: 'And what do you think of it?'",
+    "choices": [
+      {
+        "choiceText": "Settle matters accordingly.",
+        "next": 3
+      },
+      {
+        "choiceText": "Choose to battle regardless.",
+        "next": 4
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "You say: 'If my honour can be settled in court, then let it be so. I will not stain my blade to take another man’s life.' (Legacy+)",
+    "choices": [
+      { "choiceText": "Continue", "next": 5 }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "You say: 'Courts speak slow and men lie fast. I trust only steel.' (Legacy--)",
+    "choices": [
+      { "choiceText": "Continue", "next": 5 }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Henry V gives his opinion, the duel ends with Sir Peter victorious, and you ride with the king reflecting on honor.",
+    "choices": [
+      { "choiceText": "Continue", "next": 6 }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Palace of Westminster (March 19, 1413)\nYour troops are ready and you begin training, initiating the tutorial sequence.",
+    "choices": [
+      { "choiceText": "Continue", "next": 7 }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "While training, a messenger summons you to the king's chancery.",
+    "choices": [
+      { "choiceText": "Go to the king", "next": 8 }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "King Henry IV reveals he is ill and plans to name you his successor. He asks you to keep this secret.",
+    "choices": [
+      {
+        "choiceText": "Be honored",
+        "next": 9
+      },
+      {
+        "choiceText": "I will be the better king",
+        "next": 10
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "King Henry IV praises your honorable response. He believes you will guide the kingdom to better days. (Legacy++)",
+    "choices": [
+      { "choiceText": "Continue", "next": 11 }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "King Henry IV is angered by your arrogance and fears his choice may harm the kingdom. (Legacy--)",
+    "choices": [
+      { "choiceText": "Continue", "next": 11, "legacyChange": -1 }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "The king reminds you not to reveal the secret. As you leave, Henry V questions your presence in the chancery. You lie as commanded.",
+    "choices": [
+      { "choiceText": "Continue", "next": 12 }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "The next morning, while preparing to train, the palace bell rings. Henry V arrives and accuses you of killing the king. You are seized and thrown into the palace jail.",
+    "choices": [
+      { "choiceText": "Continue", "next": 13 }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "In prison, you protest your innocence. Henry V orders the guards to torture you until you confess.",
+    "choices": [
+      { "choiceText": "Continue", "next": 14 }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "At dawn, injured but determined, you attempt to overpower a guard. (Combat sequence 2)",
+    "choices": [
+      {
+        "choiceText": "Win the fight",
+        "next": 15
+      },
+      {
+        "choiceText": "Lose the fight",
+        "next": 16
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "You lose the fight and are heavily injured, but you notice loose bricks in the wall. You pry them out and escape your jail cell.",
+    "choices": [
+      { "choiceText": "Continue", "next": 17 }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "You are defeated and badly injured. However, you still find a weak part of the wall, pry out the bricks, and escape the cell.",
+    "choices": [
+      { "choiceText": "Continue", "next": 17 }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Chapter 2: Recovery — You flee far from Westminster. Exhausted, injured, and disoriented, you eventually collapse. Three paths lie ahead.",
+    "choices": [
+      { "choiceText": "Go Left", "next": 18 },
+      { "choiceText": "Go Straight", "next": 19 },
+      { "choiceText": "Go Right", "next": 20
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Left Path — You collapse from dizziness. A hermit finds you and brings you to his home, nursing you back to health.",
+    "choices": [
+      { "choiceText": "Continue", "next": 21
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "Straight Path — You awaken in a stranger's home. The man claims to have treated your wounds and asks you to repay him with chores.",
+    "choices": [
+      { "choiceText": "Continue", "next": 30
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "Right Path — You survive alone in the wilderness, tending your own wounds and hunting for food. One day you notice guards searching nearby—you flee and begin your journey back to the kingdom.",
+    "choices": [
+      { "choiceText": "Continue", "next": 40 }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "The hermit cares for you over the following weeks. As your strength returns, you decide to return to the kingdom and clear your name. Before you leave, the hermit offers you a special concoction.",
+    "choices": [
+      { "choiceText": "Thank the hermit", "next": 22 },
+      { "choiceText": "Leave without thanking him", "next": 23 }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "You thank the hermit for saving your life and promise to reward him when your name is cleared. (Legacy++)",
+    "choices": [
+      { "choiceText": "Continue", "next": 24, "legacyChange": 1 }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "You leave the hermit without showing gratitude. (Legacy--)",
+    "choices": [
+      { "choiceText": "Continue", "next": 24, "legacyChange": -1 }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "You set off toward the kingdom to clear your name and uncover the true murderer of King Henry IV.",
+    "choices": [
+      { "choiceText": "Continue", "next": 40 }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "Straight Path — You recover slowly while doing chores for the man who found you. Eventually he gives you the same soup as before. Hours later, you feel dizzy.",
+    "choices": [
+      { "choiceText": "Continue", "next": 31 }
+    ]
+  },
+  {
+    "id": 31,
+    "text": "The man reveals he is a bounty hunter. He drugged you and called the guards, who want you alive for the murder of the king.",
+    "choices": [
+      { "choiceText": "Fight the guards", "next": 32 }
+    ]
+  },
+  {
+    "id": 32,
+    "text": "You raise your sword to fight the guards. (Extra battle sequence)",
+    "choices": [
+      { "choiceText": "Win the fight", "next": 33 },
+      { "choiceText": "Lose the fight", "next": 34 }
+    ]
+  },
+  {
+    "id": 33,
+    "text": "You defeat the guards. The bounty hunter begs for his life. You decide his fate.",
+    "choices": [
+      { "choiceText": "Kill him", "next": 35 },
+      { "choiceText": "Spare him", "next": 36 }
+    ]
+  },
+  {
+    "id": 34,
+    "text": "You lose the battle. The guards capture you, return you to the kingdom, and torture you further. Henry V sentences you to death. You are hanged. (Ending)",
+    "choices": []
+  },
+  {
+    "id": 35,
+    "text": "You kill the bounty hunter and take his horse to ride back to the kingdom. (Legacy++)",
+    "choices": [
+      { "choiceText": "Continue", "next": 40, "legacyChange": 1 }
+    ]
+  },
+  {
+    "id": 36,
+    "text": "You spare the bounty hunter, telling him to leave the island and never return. You take his horse and head back to the kingdom. (Legacy++)",
+    "choices": [
+      { "choiceText": "Continue", "next": 40, "legacyChange": 1 }
+    ]
+  },
+  {
+    "id": 40,
+    "text": "Chapter 3: Exoneration — As you approach Westminster, you consider the suspects: the Chamberlain, the Chancellor, and the Archbishop. You plan to gather evidence and prove your innocence.",
+    "choices": [
+      { "choiceText": "Continue", "next": 41 }
+    ]
+  },
+  {
+    "id": 41,
+    "text": "At the market, you learn the Chamberlain will visit the Central Square at noon. You create a distraction to reach him.",
+    "choices": [
+      { "choiceText": "Confront the Chamberlain", "next": 42 }
+    ]
+  },
+  {
+    "id": 42,
+    "text": "You grab the Chamberlain amid chaos and begin your confrontation. (Combat sequence 3)",
+    "choices": [
+      { "choiceText": "Win the fight", "next": 43 },
+      { "choiceText": "Lose the fight", "next": 44 }
+    ]
+  },
+  {
+    "id": 43,
+    "text": "You defeat the Chamberlain and interrogate him.",
+    "choices": [
+      { "choiceText": "Continue", "next": 45 }
+    ]
+  },
+  {
+    "id": 44,
+    "text": "You lose the fight but still manage to interrogate the Chamberlain, who is now more cautious. (Legacy--)",
+    "choices": [
+      { "choiceText": "Continue", "next": 45, "legacyChange": -1 }
+    ]
+  },
+  {
+    "id": 45,
+    "text": "The Chamberlain denies killing the king and claims he saw the Archbishop leaving the king's room that night.",
+    "choices": [
+      { "choiceText": "Kill the Chamberlain", "next": 46 },
+      { "choiceText": "Spare him", "next": 47 }
+    ]
+  },
+  {
+    "id": 46,
+    "text": "You kill the Chamberlain and slip away before the crowd realizes. Rumors spread and suspicion grows. (Legacy--)",
+    "choices": [
+      { "choiceText": "Continue", "next": 48, "legacyChange": -1  }
+    ]
+  },
+  {
+    "id": 47,
+    "text": "You spare the Chamberlain and command him to stay silent. He agrees. (Legacy++)",
+    "choices": [
+      { "choiceText": "Continue", "next": 48, "legacyChange": 1 }
+    ]
+  },
+  {
+    "id": 48,
+    "text": "You go to the church to find the Archbishop. The priests say he only returns to his episcopal quarters at night. You wait and sneak in.",
+    "choices": [
+      { "choiceText": "Confront the Archbishop", "next": 49 }
+    ]
+  },
+  {
+    "id": 49,
+    "text": "You confront the Archbishop. (Combat sequence 4)",
+    "choices": [
+      { "choiceText": "Win the fight", "next": 50 },
+      { "choiceText": "Lose the fight", "next": 51 }
+    ]
+  }  ,
+  {
+    "id": 50,
+    "text": "You defeat the Archbishop and interrogate him. He admits he visited the king that night, but only to bless him at the king’s request. He insists he carried no poison, only his book.",
+    "choices": [
+      { "choiceText": "Continue", "next": 52 }
+    ]
+  },
+  {
+    "id": 51,
+    "text": "You lose the fight, but the Archbishop runs only briefly before you catch him again. Cornered, he admits he visited the king but only to bless him at the king’s request. He carried only his book. (Legacy--)",
+    "choices": [
+      { "choiceText": "Continue", "next": 52, "legacyChange": -1 }
+    ]
+  },
+  {
+    "id": 52,
+    "text": "The Archbishop claims he saw the Chancellor with the king that night as well.",
+    "choices": [
+      { "choiceText": "Kill the Archbishop", "next": 53 },
+      { "choiceText": "Spare him", "next": 54 }
+    ]
+  },
+  {
+    "id": 53,
+    "text": "You kill the Archbishop and escape the church silently. Bells later ring as his body is discovered. (Legacy--)",
+    "choices": [
+      { "choiceText": "Continue", "next": 60, "legacyChange": -1 }
+    ]
+  },
+  {
+    "id": 54,
+    "text": "You spare the Archbishop and he thanks you. You both agree never to speak of this again. (Legacy++)",
+    "choices": [
+      { "choiceText": "Continue", "next": 60, "legacyChange": 1 }
+    ]
+  },
+  {
+    "id": 60,
+    "text": "Chapter 4: Unmasked — Only one suspect remains: the Chancellor, François Ravaillac. You believe he poisoned the king. You locate him in the Council Chamber.",
+    "choices": [
+      { "choiceText": "Continue", "next": 61 }
+    ]
+  },
+  {
+    "id": 61,
+    "text": "You eliminate the guards outside and confront François as he is preparing official documents.",
+    "choices": [
+      { "choiceText": "Continue", "next": 62 }
+    ]
+  },
+  {
+    "id": 62,
+    "text": "François reacts differently depending on the fate of the other suspects. Regardless, you accuse him of murdering the king. (Combat sequence 5)",
+    "choices": [
+      { "choiceText": "Win the fight", "next": 63 },
+      { "choiceText": "Lose the fight", "next": 64 }
+    ]
+  },
+  {
+    "id": 63,
+    "text": "You defeat François. He is gravely injured. You demand he confess to the murder of King Henry IV.",
+    "choices": [
+      { "choiceText": "Continue", "next": 65 }
+    ]
+  },
+  {
+    "id": 64,
+    "text": "François wins the fight, though barely. Both of you are injured. You still demand he confess. He refuses and claims the Royal Court would never believe you, a wanted man.",
+    "choices": [
+      { "choiceText": "Continue", "next": 65 }
+    ]
+  },
+  {
+    "id": 65,
+    "text": "As you confront François, the door opens. Henry V enters and orders you to release him.",
+    "choices": [
+      { "choiceText": "Continue", "next": 66 }
+    ]
+  },
+  {
+    "id": 66,
+    "text": "Henry V reveals the truth: François did kill the king, but at Henry V’s command. Henry V killed his own father because King Henry IV intended to crown YOU instead.",
+    "choices": [
+      { "choiceText": "Continue", "next": 67 }
+    ]
+  },
+  {
+    "id": 67,
+    "text": "Outraged, you challenge Henry V to a duel at noon the next day. Henry V accepts, declaring the duel will coincide with his coronation.",
+    "choices": [
+      { "choiceText": "Prepare for the duel", "next": 68 }
+    ]
+  },
+  {
+    "id": 68,
+    "text": "Chapter 5: General’s Requiem — Crowds gather for the duel. Henry V accuses you of killing the king. You counter with the truth.",
+    "choices": [
+      { "choiceText": "Begin duel with Henry V", "next": 69 }
+    ]
+  },
+  {
+    "id": 69,
+    "text": "Final Duel — You and Henry V clash blades for the fate of the kingdom. (Combat sequence 6)",
+    "choices": [
+      { "choiceText": "Win the duel", "next": 70 },
+      { "choiceText": "Lose the duel", "next": 80 }
+    ]
+  },
+  {
+    "id": 70,
+    "text": "You defeat Henry V and pin him down. Only a final strike remains. You demand he confess.",
+    "choices": [
+      { "choiceText": "Kill Henry V", "next": 71 },
+      { "choiceText": "Spare Henry V", "next": 75 }
+    ]
+  },
+  {
+    "id": 71,
+    "text": "You kill Henry V with a clean thrust to the neck. Silence falls over the crowd as the tyrant dies. Your innocence is proven and the crown is rightfully yours. (High Legacy Kill Ending)",
+    "choices": [
+      { "choiceText": "Continue", "next": 72 }
+    ]
+  },
+  {
+    "id": 72,
+    "text": "Announcer: 'Victory to NAME! By right of blade and blood, he shall be crowned King of Westminster!' The crowd erupts in celebration as you claim your rightful place as king.",
+    "choices": []
+  },
+  {
+    "id": 73,
+    "text": "You kill Henry V brutally—multiple stabs, then beheading him. The crowd recoils in horror. François appears with evidence against you, revealing your earlier killings. Soldiers seize you.",
+    "choices": [
+      { "choiceText": "Continue", "next": 74 }
+    ]
+  },
+  {
+    "id": 74,
+    "text": "You resist but are overwhelmed. You are executed by hanging. (Low Legacy Kill Ending)",
+    "choices": []
+  },
+  {
+    "id": 75,
+    "text": "You spare Henry V. Cornered, he finally breaks and confesses before the entire crowd that he murdered King Henry IV. (High Legacy Spare Ending)",
+    "choices": [
+      { "choiceText": "Continue", "next": 76 }
+    ]
+  },
+  {
+    "id": 76,
+    "text": "Announcer: 'By his own confession, Henry V stands guilty of regicide. NAME shall be crowned the new King of Westminster!' Peace returns to the kingdom as the crowd celebrates your mercy.",
+    "choices": []
+  },
+  {
+    "id": 77,
+    "text": "You attempt to spare Henry V, expecting him to confess. Instead, he seizes the moment and slashes your throat. You collapse, dying as Henry V claims the crown. (Low Legacy Spare Ending)",
+    "choices": []
+  },
+  {
+    "id": 80,
+    "text": "You lose the duel. Henry V pins you down and kills you without hesitation. Your innocence dies with you, never proven. (Final Duel Loss Ending)",
+    "choices": []
+  }
+]
+
